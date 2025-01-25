@@ -48,7 +48,7 @@ public class TestDemo {
 		   //.fillQuantity("5")
 		   //.addToCart();
 		
-		LoginPage2 lo = new LoginPage2(wd);
+		LoginPage4 lo = new LoginPage4(wd);
 		lo.openURL()
 		.fillcredentials("standard_user","secret_sauce")
 		.ClickOnButton();
